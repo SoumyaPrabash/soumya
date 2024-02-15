@@ -1,0 +1,232 @@
+* {
+  margin:0 ;
+  padding:0 ;
+  }
+  body{
+    color:#7a7d87;
+  }
+  
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+    
+  }
+
+
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 100vh;
+    }
+  }
+  .navbar{
+    color: #9d8eec;
+  }
+
+  .top-nav-collapse {
+    background-color: #78909c !important;
+  }
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(37, 130, 252, 0.9), rgba(155, 23, 175, 0.9));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(37, 130, 252, 0.9), rgba(155, 23, 175, 0.9));
+  }
+  /* .navbar:not(.top-nav-collapse) {
+    background: blueviolet !important;
+  } */
+
+  @media (max-width: 991px) {
+   .navbar:not(.top-nav-collapse) {
+    background: linear-gradient(to right, rgba(37, 130, 252, 0.9), rgba(155, 23, 175, 0.9)) !important;
+   }
+  }
+  
+  .intro-info{
+    color:#b4b5f0;
+    
+  }
+
+  h1 {
+    letter-spacing: 8px;
+  }
+
+  h5 {
+    letter-spacing: 3px;
+  }
+
+  .hr-light {
+    border-top: 3px solid #a5aee5;
+    width: 80px;
+    margin: 0 auto;
+   
+  }
+  .p{
+    margin:0;
+    padding:0;
+  }
+
+/* Skills  */
+
+.card.blue-purple{
+
+  background: linear-gradient(160deg, rgba(118, 114, 228, 0.9), rgba(151, 31, 202, 0.9) 100%);
+  color:#c9c4e2;
+}
+
+.card.purple-blue{
+  background: linear-gradient(160deg, rgba(154, 55, 229, 0.9), rgba(137, 92, 228, 0.9) 100%);
+}
+
+
+  /* Education timeline */
+
+  .timeline-p{
+    margin:0 0;
+  }
+  .timeline-pad{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    /* #50a1ff; */
+  } 
+  .hr-edu {
+    border-top: 3px solid #a5aee5;
+    width: 80px;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+  }
+
+  .timeline {
+    position: relative;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    margin-left: -1px;
+    background-color: #50a1ff;
+  }
+
+  .timeline-element {
+    position: relative;
+    width: 50%;
+    padding: 1rem 0;
+    padding-right: 2.5rem;
+    text-align: right;
+  }
+
+  .timeline-element::before {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 1.35rem;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #50a1ff;
+    background-color: #fff;
+  }
+
+  .timeline-element:nth-child(even)::before {
+    right: auto;
+    left: -8px;
+  }
+
+  .timeline-element:nth-child(even) {
+    margin-left: 50%;
+    padding-left: 2.5rem;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  @media (max-width: 767.98px) {
+    .timeline::before {
+      left: 8px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .timeline-element {
+      width: 100%;
+      text-align: left;
+      padding-left: 2.5rem;
+      padding-right: 0;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .timeline-element::before {
+      top: 1.25rem;
+      left: 1px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .timeline-element:nth-child(even) {
+      margin-left: 0rem;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .timeline-element {
+      width: 100%;
+      text-align: left;
+      padding-left: 2.5rem;
+      padding-right: 0;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .timeline-element:nth-child(even)::before {
+      left: 1px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .timeline-element::before {
+      top: 1.25rem;
+    }
+  }
+
+  /* #Projects */
+  .hr-prj {
+    border-top: 1px solid #c2c8ee;
+    width: 400px;
+    margin: 0 auto;
+      }
+
+      /* Contact */
+      .contact{
+        background: linear-gradient(to right, rgba(37, 130, 252, 0.9), rgba(155, 23, 175, 0.9) 100%);
+      }
+
+      .txt-color{
+        color:#b4b5f0;
+      }
+
+      .icon-color{
+        color:#b4b5f0;
+      }
+      .fa-linkedin-in:hover{
+        color:rgba(155, 23, 175, 0.9);
+      }
+      .fa-github:hover{
+        color:rgba(155, 23, 175, 0.9);
+      }
+
